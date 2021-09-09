@@ -1,4 +1,5 @@
-## dxvk d3dx
+## d3dx9 standalone
 
-Link against this and dxvk-native in your dx9 shaderapi. dxvk-native doesn't supply any d3dx crap afaik, 
-so that's what this is for.
+This is ripped from Valve's ToGL compatibility layer: https://github.com/ValveSoftware/ToGL
+
+If you're planning on adding dxvk-native support to your Source game, I suggest you move over to DirectXMath or something else that's equally as portable. 
